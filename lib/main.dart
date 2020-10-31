@@ -4,10 +4,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: Colors.teal[700],
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey,
-          title: Text('예인이 보고싶다'),
+          title: Text('flutter example'),
+          backgroundColor: Colors.teal,
         ),
         body: Center(
           child: Padding(
